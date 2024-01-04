@@ -65,6 +65,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 87a942722f054cf4fb7be668213df7af, type: 3}
+--- !u!4 &3077683922577961324 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 917148448395962299, guid: 87a942722f054cf4fb7be668213df7af, type: 3}
+  m_PrefabInstance: {fileID: 2741703296455644887}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &3077683922577961326 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 917148448395962297, guid: 87a942722f054cf4fb7be668213df7af, type: 3}
@@ -181,17 +186,35 @@ MonoBehaviour:
   sound:
     objectAudios:
     - materialType: 0
-      objectSounds: []
+      objectSounds:
+      - audioClip: {fileID: 8300000, guid: 219cac460b9274e48ad62e3469839d33, type: 3}
+        piority: 0
+        volume: 0
       particleSystems: []
     - materialType: 1
-      objectSounds: []
+      objectSounds:
+      - audioClip: {fileID: 8300000, guid: 88b048a343b2c644c982fca73451901b, type: 3}
+        piority: 0
+        volume: 0
       particleSystems: []
     - materialType: 2
-      objectSounds: []
+      objectSounds:
+      - audioClip: {fileID: 8300000, guid: 219cac460b9274e48ad62e3469839d33, type: 3}
+        piority: 0
+        volume: 0
+      - audioClip: {fileID: 8300000, guid: 6b898baf363cc9f4eb2e06f06a20a8be, type: 3}
+        piority: 0
+        volume: 0
+      - audioClip: {fileID: 8300000, guid: f9c7e2ca0c90bf1468dc88710ba387b6, type: 3}
+        piority: 0
+        volume: 0
+      - audioClip: {fileID: 8300000, guid: 49a76b64a6728cc40b3be78f2290b6a3, type: 3}
+        piority: 0
+        volume: 0
       particleSystems: []
     - materialType: 3
       objectSounds:
-      - audioClip: {fileID: 8300000, guid: 236cad2b74c426b43ad5a0eee92e3085, type: 3}
+      - audioClip: {fileID: 8300000, guid: e7435397e5095674f99f5ef3563c680d, type: 3}
         piority: 0
         volume: 0
       - audioClip: {fileID: 8300000, guid: e8259b920ba0ed04bad26a87563ca951, type: 3}
@@ -202,10 +225,25 @@ MonoBehaviour:
         volume: 0
       particleSystems: []
     - materialType: 4
-      objectSounds: []
+      objectSounds:
+      - audioClip: {fileID: 8300000, guid: 33b3a943dae28b94d8aba5186a1da4c1, type: 3}
+        piority: 0
+        volume: 0
       particleSystems: []
     - materialType: 5
-      objectSounds: []
+      objectSounds:
+      - audioClip: {fileID: 8300000, guid: bd0a3d1ecfa57c148bd4090d75fb7f3c, type: 3}
+        piority: 0
+        volume: 0
+      - audioClip: {fileID: 8300000, guid: db3e6bda947920746afb60dd201a4c5c, type: 3}
+        piority: 0
+        volume: 0
+      - audioClip: {fileID: 8300000, guid: 24a6fd2b4320cf947816770c0eac1b45, type: 3}
+        piority: 0
+        volume: 0
+      - audioClip: {fileID: 8300000, guid: 068b2af5b80c3d14c911bab9455a65b1, type: 3}
+        piority: 0
+        volume: 0
       particleSystems: []
     - materialType: 6
       objectSounds:
@@ -229,7 +267,10 @@ MonoBehaviour:
         volume: 0
       particleSystems: []
     - materialType: 7
-      objectSounds: []
+      objectSounds:
+      - audioClip: {fileID: 8300000, guid: 5f65b3cda1eaad5478701953f09d0b94, type: 3}
+        piority: 0
+        volume: 0
       particleSystems: []
   audioSource: {fileID: 947678117}
   layer:
@@ -237,3 +278,18 @@ MonoBehaviour:
     m_Bits: 32759
   _tileDatas:
   - {fileID: 11400000, guid: 598de221134e3494d974b83bca4862c5, type: 2}
+  - {fileID: 11400000, guid: e58bb3fcbfa951e42a9342180d9dde2a, type: 2}
+  - {fileID: 11400000, guid: 08488d6d092029f43bf37048e5c9c1dc, type: 2}
+--- !u!114 &290192553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3077683922577961326}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2acf558ec15e7214fb943b021eaa9071, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 3077683922577961324}

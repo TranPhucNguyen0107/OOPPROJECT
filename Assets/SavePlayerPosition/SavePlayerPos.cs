@@ -28,7 +28,7 @@ public class SavePlayerPos : MonoBehaviour
         PlayerPrefs.SetFloat("playerPositiony", playerPosition.y);
         PlayerPrefs.SetFloat("playerPositionz", playerPosition.z);
         PlayerPrefs.Save();
-        Debug.Log("X:" + PlayerPrefs.GetFloat("playerPositionx") + "Y:" + PlayerPrefs.GetFloat("playerPositiony") + "Z:" + PlayerPrefs.GetFloat("playerPositionz"));
+      //  Debug.Log("X:" + PlayerPrefs.GetFloat("playerPositionx") + "Y:" + PlayerPrefs.GetFloat("playerPositiony") + "Z:" + PlayerPrefs.GetFloat("playerPositionz"));
     }
 
 }
